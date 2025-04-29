@@ -56,13 +56,13 @@ async def read_form():
         <body>
             <h1>Create a Mutual NDA</h1>
             <form action="/generate_nda/" method="post">
-                <label>Party 1 Name:</label>
+                <label>Party 1 Legal Name:</label>
                 <input type="text" name="party1_name" required>
 
-                <label>Party 1 Address:</label>
+                <label>Party 1 Mailing Address:</label>
                 <input type="text" name="party1_address" required>
 
-                <label>Party 1 State of Incorporation:</label>
+                <label>Party 1 State of Incorporation (Input N/A if Individual):</label>
                 <input type="text" name="party1_state" required>
 
                 <label>Party 1 Entity Type:</label>
@@ -73,13 +73,13 @@ async def read_form():
                     <option value="Partnership">Partnership</option>
                 </select>
 
-                <label>Party 2 Name:</label>
+                <label>Party 2 Legal Name:</label>
                 <input type="text" name="party2_name" required>
 
-                <label>Party 2 Address:</label>
+                <label>Party 2 Mailing Address:</label>
                 <input type="text" name="party2_address" required>
 
-                <label>Party 2 State of Incorporation:</label>
+                <label>Party 2 State of Incorporation (Input N/A if Individual):</label>
                 <input type="text" name="party2_state" required>
 
                 <label>Party 2 Entity Type:</label>
