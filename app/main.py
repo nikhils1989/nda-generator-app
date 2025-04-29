@@ -67,10 +67,10 @@ async def read_form():
 
                 <label>Party 1 Entity Type:</label>
                 <select name="party1_entity" required>
-                    <option value="Individual">Individual</option>
-                    <option value="Corporation">Corporation</option>
-                    <option value="Limited Liability Company">Limited Liability Company</option>
-                    <option value="Partnership">Partnership</option>
+                    <option value="individual">Individual</option>
+                    <option value="corporation">Corporation</option>
+                    <option value="limited liability company">Limited Liability Company</option>
+                    <option value="partnership">Partnership</option>
                 </select>
 
                 <label>Party 2 Legal Name:</label>
@@ -84,10 +84,10 @@ async def read_form():
 
                 <label>Party 2 Entity Type:</label>
                 <select name="party2_entity" required>
-                    <option value="Individual">Individual</option>
-                    <option value="Corporation">Corporation</option>
-                    <option value="Limited Liability Company">Limited Liability Company</option>
-                    <option value="Partnership">Partnership</option>
+                    <option value="individual">Individual</option>
+                    <option value="corporation">Corporation</option>
+                    <option value="limited liability company">Limited Liability Company</option>
+                    <option value="partnership">Partnership</option>
                 </select>
 
                 <button type="submit">Generate NDA</button>
